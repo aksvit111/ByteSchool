@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.container, .section{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+
+.header, .footer{
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+    
+}
+
+.header__flex, .footer__flex, .about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-li{
+    display: inline-block;
+}
+
+.nav-li:not(:first-of-type){
+    margin-left: 49px;
+}
+
+.navlink{
+        font-style: Bold;
+        font-size: 15px;
+        line-height: 20px;
+        line-height: 100%;
+        Align: Left;
+        vertical-align: Top;
+        letter-spacing: -0.47px;
+        Fill: Solid;
+        color: #696871;
+        text-decoration: none;
+}
+
+.navlink:hover{
+    color: black;
+    transition: 300ms;
+}
+
+
+.button{
+    width: 212px;
+    height: 60px;
+    Font style: Bold;
+    font-size: 17px;
+    line-height: 22px;
+    line-height: 100%;
+    align: Center;
+    vertical-align: Top;
+    letter-spacing: -0.53px;
+    color: #FFFFFF;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;   
+} 
+
+.button__orange{
+    background-color: #FF7143;
+}
+.button__orange:hover{
+    background-color: #c6785e;
+    transition: 500ms;
+}
+
+.btn1{
+
+
+    background: #5454D4;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    margin: 30px 30px;
+}
+
+.btn2{
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    padding: 20px 30px;
+    margin: 30px 30px;
+}
+
+
+
+.about{
+    margin: 105px auto 85px;
+}
+
+.about__title{
+    font-weight: Bold;
+    font-size: 80px;
+    Line-height: 77px;
+    Line-height: 74%;
+    letter-spacing: -2.5px;
+    color: black;
+    max-width: 467;
+    margin-bottom: 30px;
+}
+
+.about__text{
+    font-size: 20px;
+    Line-height: 30px;
+    line-height: 120%;
+    letter-spacing: -0.62px;
+    color: black;
+    max-width: 467;
+    margin-bottom: 30px;
+    Font style: Regular;
+}  
+
+
